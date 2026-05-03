@@ -262,6 +262,8 @@ The Office of State Technology must publish technical documentation sufficient f
 
 The section includes a **coordinated vulnerability disclosure** safe harbor. Security researchers who find and report bugs in the state-certified interface in good faith, following a published policy, are protected from civil and criminal liability — provided they don't exfiltrate more data than necessary, don't exploit the vulnerability for personal gain, don't disclose publicly before the state has had a chance to fix it, and otherwise act in good faith.
 
+The section also includes a **multiple independent issuers** requirement. The Office of State Technology must maintain a roster of at least three approved issuers in active operation in Arkansas, drawn from at least two different categories — brick-and-mortar retail, online or mail-order, government office, or other authorized category. No single corporate parent or controlled subsidiary group can hold more than one of those issuer slots, so a major retailer cannot quietly become the sole gatekeeper through subsidiaries. Issuer distribution must reasonably cover urban, suburban, and rural Arkansas. Exclusive-dealing arrangements, exclusive-territory arrangements, and tied-product conditioning are prohibited. The Office of State Technology must monitor concentration and refer anticompetitive conduct to the Attorney General. If the minimum cannot temporarily be maintained, the Office must publicly disclose the deficiency and may use the temporary alternative compliance method to avoid disrupting lawful adult access. The whole point of this requirement is that adult access to general-purpose computing in Arkansas should not depend on the goodwill or pricing decisions of any single company.
+
 ### § 4-88-1312 — The fund
 
 This creates the **Arkansas Child Protection and Online Privacy Fund** on the books of the Treasurer of State, the Auditor of State, and the Chief Fiscal Officer.
@@ -313,6 +315,31 @@ The high two-thirds threshold and clear-and-convincing standard are deliberate. 
 **Subsection (h)** addresses bad-faith notices. People who knowingly submit false, misleading, or bad-faith covered notices are liable to operators for damages, costs, lost revenue, court costs, and attorney's fees. The Attorney General can establish procedures to track and refuse notices from people with patterns of bad-faith submissions.
 
 **Subsection (i)** confirms this section is in addition to other remedies, doesn't relieve operators of liability for knowing violations, allows good-faith cure to be considered as a mitigating factor, doesn't require ISPs or search engines to monitor content, and doesn't impose obligations inconsistent with Section 230.
+
+### § 4-88-1314 — The program is for adults only
+
+This section was added to make sure the program never quietly grows into something it was not designed to be.
+
+The bill creates infrastructure to answer one question: is the user an adult? It does not authorize anything else. § 4-88-1314 makes that limit explicit.
+
+**Subsection (a)** explains why the section exists. Extending state-certified age-assurance infrastructure to monitor, profile, restrict, or behaviorally control minors raises distinct constitutional, family, and child-welfare concerns that deserve a separate legislative debate — not an administrative decision made quietly by a state agency.
+
+**Subsection (b)** is the scope limitation. The program, the state-certified interface, and any credential issued under the bill can only be used to determine whether a user is an adult and to generate the boolean age response. They cannot be used to:
+
+- identify, classify, profile, monitor, track, or rank a user known or believed to be a minor
+- apply content restrictions, filtering, application restrictions, behavioral controls, screen-time controls, location-tracking, or communication-monitoring through the state-certified interface
+- maintain a registry, list, or database of minor users
+- transmit, sell, license, disclose, or otherwise use any signal indicating a particular user is not an adult, except to permit or deny age-restricted access as the bill requires
+
+**Subsection (c)** preserves ordinary parental controls. Parents and guardians can still configure parental controls, content filtering, screen-time limits, location-sharing, and other minor-directed safety features on devices they control. Operating systems, devices, and app stores can still offer these features. The line is that those features must operate independently of the state-certified interface and must not rely on the age-assurance data collected under this bill. Apple Screen Time, Google Family Link, Microsoft Family Safety, and similar tools are unaffected.
+
+**Subsection (d)** is the legislative-authorization gate. The Office of State Technology cannot administratively expand the program into minor-side functionality. It cannot adopt rules, certify implementations, approve issuers, or otherwise extend the program to handle minor identification, profiling, restriction, or behavioral monitoring. Successor local implementations cannot be certified under the bill if they include minor-side functionality. If a future legislature decides minor-side functionality is appropriate, that decision has to be made by an act of the General Assembly — not by a state agency interpreting its own rules.
+
+**Subsection (e)** says the section must be construed broadly in favor of limiting the program and against extension. It also makes clear that the section does not weaken existing protections for minors from harmful material (those continue under § 4-88-1304(a) and other provisions) and does not regulate parental control features that operate outside the state-certified interface.
+
+**Subsection (f)** requires affirmative annual certification of compliance. In each annual report and each pre-sunset report, the Office of State Technology must certify that the program has been operated in compliance with this section, or identify any departure and explain it. This makes drift into minor-side functionality something that has to be openly disclosed rather than something that can happen quietly.
+
+The reason this section exists is straightforward: child-safety infrastructure has a long history of expanding beyond its original purpose. The bill is designed to prevent that drift in this case. The state can verify whether someone is an adult to unlock unrestricted adult use of a computer. It cannot use that infrastructure to build a separate apparatus pointed at children. If anyone wants to do that, they have to go back to the legislature and get an affirmative authorization.
 
 ---
 
