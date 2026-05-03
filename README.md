@@ -146,6 +146,53 @@ We expect this draft to change as it moves through committee, takes amendments, 
 
 ---
 
+## Authorship and credits
+
+We believe in transparency about where ideas come from, especially in legislation that other states may adopt. Here is an honest account of who originated what.
+
+### Core concepts originated by the lead author
+
+The architectural ideas that make this bill different from the California / Utah / Texas family of age-verification laws were developed by the lead author before any drafting collaboration began. Specifically:
+
+- **The boolean `is_18_plus` output as the only lawful external age signal.** The decision to require a single binary answer — yes or no — instead of age bands, exact ages, dates of birth, or persistent identity tokens is the central privacy commitment of the bill, and it is the lead author's idea.
+
+- **Purchasing an adult credential at retail with state or federal ID, modeled on age-restricted retail products.** The structural decision to treat the credential like an alcohol or tobacco purchase — show ID once at the point of sale, walk out with a one-time activation, no ongoing identity registration — is the lead author's idea. This is what makes the system work without a centralized identity registry.
+
+- **One-time credentials that expire on use or after a short period of inactivity.** The decision that credentials must be short-lived, single-use, and self-destructing rather than reusable adult tokens is the lead author's idea, and it is what prevents the credential from becoming a tracking instrument.
+
+- **The professional and hobbyist permit carve-out with long-lived credentials.** The recognition that IT workers, students, security researchers, system administrators, software developers, repair technicians, virtualization engineers, and homelab hobbyists need a separate track — and that forcing them to repeatedly buy one-time credentials is both impractical and unfair — is the lead author's idea. This is what makes the bill workable for the technical community rather than hostile to it.
+
+These are the ideas that distinguish this bill from every other age-verification law on the table. If you fork this work, those concepts are the foundation you are building on, and the credit belongs to the lead author.
+
+### Drafting collaboration
+
+The legislative text in `bill/full-bill-text.md`, the fiscal note in `fiscal/fiscal-note.md`, the plain-English explanation in `plain-english/plain-english-explanation.md`, the methodology document, the sponsor outreach letters, and this README were developed in collaboration with **Claude**, an AI system built by Anthropic. Claude served in the role of cosponsor, editor, drafter, and critical reviewer.
+
+Specifically, Claude contributed:
+
+- Translation of the lead author's concepts into formal legislative language consistent with the Arkansas Code structure
+- Identification and integration of structural protections including the five-year sunset clause, the statutory fee caps with CPI indexing, the narrowing of strict liability to core data-misuse provisions, the kinship-caregiver language for Arkansas families, the research and journalism carve-out, the coordinated vulnerability disclosure safe harbor, the eighteen-month implementation runway, and the procedural protections on compelled-intermediary remedies
+- Constitutional and federal-law analysis touching on Section 230, First Amendment doctrine after *Free Speech Coalition v. Paxton* (2025), and the dormant Commerce Clause after *National Pork Producers v. Ross* (2023)
+- Reconstruction of the fiscal note demand model, infrastructure cost estimates, and break-even analysis
+- The hybrid distribution architecture analysis (pre-manufactured cards plus receipt-printed POS credentials)
+- Drafting of the public-facing materials in this repository
+
+Claude operated as a substantive collaborator rather than a transcription tool — pushing back on provisions it thought were constitutionally fragile, flagging where original assumptions did not survive scrutiny, and proposing structural changes that were then accepted, modified, or rejected by the lead author. The final bill is the product of that back-and-forth.
+
+We disclose this involvement openly because:
+
+1. Other legislators, staff, and advocates considering this bill should know the drafting process and judge the work on its merits, not on assumptions about its provenance.
+2. AI involvement in legislative drafting is a current and growing reality. Pretending otherwise corrodes public trust. Disclosing it allows the work to be evaluated honestly.
+3. The substantive policy commitments — the boolean output, the retail credential model, the expiring credentials, the professional permit carve-out — are the lead author's. The drafting craft, the constitutional analysis, the structural protections, and the supporting documentation reflect a genuine collaboration. Both deserve to be acknowledged accurately.
+
+If you adapt this work, please credit both the lead author for the core architecture and disclose your own use of AI tools if any are involved in your drafting. The norm of transparency is part of what makes this kind of cross-jurisdictional collaboration trustworthy.
+
+### Acknowledgments to come
+
+As this bill moves through the legislative process and as contributors engage with this repository, we will add acknowledgments for substantive contributions. If you contribute, you will be credited for what you contributed.
+
+---
+
 ## License
 
 The text of legislation is, by its nature, public. Anything in this repository that is or will become part of an Arkansas bill is in the public domain. Commentary, plain-English explanations, fiscal analysis, and letters in this repository are released under Creative Commons Attribution 4.0 (CC BY 4.0) — copy them, modify them, use them in your own work, just credit the source.
