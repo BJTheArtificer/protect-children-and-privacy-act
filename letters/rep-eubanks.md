@@ -18,6 +18,8 @@ The bill also includes a thoughtful enforcement architecture. Alleged violations
 
 This bill should appeal to anyone who cares about online safety. A privacy-preserving system is more likely to be trusted by parents, respected by ordinary users, and defended as a serious alternative to the California model. A broad surveillance-based system will invite backlash, litigation, evasion, and public distrust. A narrow Arkansas model can protect children while avoiding those mistakes.
 
+The bill also reinvests in Arkansas children directly. When the credential program runs a surplus, that surplus is directed to Arkansas public schools — for computer technology, K-6 STEM curriculum, and basic classroom supplies — coordinated with the Department of Education's existing per-pupil distribution formulas. Money raised by protecting children online from harmful material funds school computer labs, classroom STEM materials, and the everyday supplies teachers too often buy out of pocket. The structure is deliberately discretionary rather than entitlement-based, so the program's primary obligation remains running the credential system, but to the extent surplus exists, it goes back to children.
+
 The boulder is already rolling downhill. Age assurance is coming in some form. Arkansas may not be able to stop every outside mandate, but we can help steer the national conversation. We can say: if age assurance is going to exist, it must be narrow, local, privacy-preserving, and limited to what is necessary.
 
 Your work on online safety issues makes you an important potential co-sponsor. I hope you will consider helping Arkansas become the state that proves child protection and privacy protection can move together.

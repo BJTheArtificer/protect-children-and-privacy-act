@@ -26,6 +26,8 @@ This is not a Second Amendment bill, but it protects the kind of constitutional 
 
 Arkansas should not accept a model where protecting children requires treating every adult as a suspect. We can do better. We can protect minors while protecting lawful adult privacy, speech, association, and constitutional activity.
 
+One additional feature worth noting, given your focus on responsible governance: the bill is anchored on cost recovery, not revenue generation. Fees are capped at what the program actually costs to run plus a reasonable reserve, with any persistent surplus triggering a mandatory price review. To the extent surplus does accumulate, the bill directs it to Arkansas public schools for computer technology, K-6 STEM curriculum, and classroom supplies, distributed through the Department of Education's existing formulas. This means money raised by protecting Arkansas children online is reinvested in Arkansas children's education. The structure is intentionally discretionary rather than entitlement-based, so school distribution never becomes the program's reason for existence — the privacy architecture remains the point.
+
 Your constitutional-rights record makes you a natural fit for this effort. I hope you will consider helping Arkansas lead with a model that is pro-family, pro-liberty, and anti-surveillance.
 
 Respectfully,

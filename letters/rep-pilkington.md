@@ -20,6 +20,8 @@ The Arkansas alternative is better. This bill says: protect children, but limit 
 
 California may believe privacy must be sacrificed to protect children. Arkansas does not have to accept that false choice. We can protect kids and protect adults at the same time.
 
+I should also mention a feature of the bill that fits naturally with your concerns about how government and corporate revenue streams quietly become permanent fixtures. The credential program is structured as a cost-recovery operation, not a revenue source — fees can only cover the actual cost of running the program plus a reasonable reserve. Any persistent surplus triggers a mandatory price review. To the extent surplus does accumulate before prices are adjusted downward, the bill directs it to Arkansas public schools for computer technology, K-6 STEM curriculum, and classroom supplies, coordinated with the Department of Education. The structure is deliberately discretionary rather than entitlement-based, so the program never becomes a hostage to its own surplus. This is the opposite of the budgetary-mission-creep dynamic you've raised concerns about in other contexts.
+
 I hope you will consider joining this effort as a co-sponsor and helping ensure Arkansas sets the national model for privacy-preserving child protection.
 
 Respectfully,

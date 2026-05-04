@@ -26,6 +26,12 @@ The bill includes due process protections so that families wrongly cut off from 
 
 The bill carves out research and journalism so academic study and independent reporting can continue, providing transparency about how the program operates.
 
+There is one more provision in the bill I want to draw to your attention specifically, because I think you will appreciate it: the program is designed so that any revenue beyond what's needed to run it goes directly to Arkansas children. When the credential program runs a surplus, that surplus is distributed to Arkansas public schools and public charter schools through the Department of Education's existing per-pupil distribution formulas, for three specific purposes:
+
+Computer technology for school computer labs and classroom instruction. Science-technology-engineering-and-mathematics curriculum, with statutory emphasis on building foundational computer science and STEM capacity in kindergarten through grade six — recognizing that strong K-6 foundations are essential for later learning in those fields. And basic classroom supplies — paper, writing implements, and the everyday consumable instructional materials that teachers across Arkansas too often pay for out of their own pockets.
+
+In other words: money raised by protecting Arkansas children from harmful online material is reinvested in Arkansas children's education. The bill is deliberately structured so that the program's primary obligation remains administering the credential system, with surplus distribution as a discretionary use of any excess — so the program never becomes a hostage to its own revenue stream and prices can be reduced if surplus persists. But to the extent surplus exists, it goes back to children. That is the kind of provision that, in my view, should appeal to anyone who cares about child welfare in both senses: protecting children from online harm, and equipping them with the tools to learn.
+
 In Arkansas, we can walk and chew gum. We can protect kids and protect privacy at the same time. We can reject the false choice that says every family must either accept harmful online access or accept Big Tech and government identity tracking.
 
 Your work on child protection and your role in Arkansas's existing online harmful-material protections make your voice especially important. This bill does not weaken those protections; it strengthens them by making the compliance model more durable, more privacy-conscious, and more defensible against criticism that age verification inevitably means mass surveillance.

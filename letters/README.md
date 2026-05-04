@@ -10,6 +10,16 @@ If you are reaching out to a legislator not represented here, feel free to use a
 
 If you are a legislator yourself reading this and want to be added to or removed from the outreach list, please open an issue on the repository.
 
+## Common framing across letters
+
+All seven letters share three through-lines with calibrated emphasis:
+
+- **The boulder framing.** Operating-system-level age verification is coming whether anyone likes it or not. Arkansas can either be swept into California's surveillance-oriented approach or lead with a privacy-preserving alternative.
+- **The privacy architecture.** Boolean-only output, no persistent identifiers, no issuer callback during ordinary use, no central log of lawful adult access, statutory limits on data collection and secondary use.
+- **The school benefit.** Surplus revenue from the credential program is directed to Arkansas public schools for computer technology, K-6 STEM curriculum, and basic classroom supplies, coordinated with the Department of Education's existing distribution formulas. Money raised by protecting Arkansas children online is reinvested in Arkansas children's education.
+
+The school benefit is positioned as a complement to each letter's primary framing rather than the lead pitch. Letters tailored to legislators with privacy or constitutional priorities (Long, Pilkington, Duffield) treat it as a bonus; letters tailored to child-protection and family-policy legislators (McAlindon, Gramlich) give it heavier emphasis as a natural extension of their existing concerns.
+
 ## Files
 
 - `rep-long.md` — Rep. Wayne Long (Fourth Amendment and constitutional privacy framing)

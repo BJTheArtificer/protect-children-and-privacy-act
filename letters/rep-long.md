@@ -16,6 +16,8 @@ For gun-rights advocates, the danger of poorly designed age-verification is espe
 
 Arkansas should not copy a California model that says the government can protect children only by making every operating system a checkpoint. In Arkansas, we can walk and chew gum. We can protect minors and protect privacy at the same time.
 
+The bill also includes a feature you may find compelling on its own merits: when the credential program runs a surplus, that surplus is directed to Arkansas public schools. Specifically, surplus may be distributed for school computer technology, science-technology-engineering-and-math curriculum (with statutory emphasis on building K-6 foundations in computer science and STEM), and basic classroom supplies — coordinated with the Department of Education's existing distribution formulas. Money earned from a program that protects children online is reinvested in Arkansas children's education. The schools angle is not the primary purpose of the bill, and the surplus distribution is structured as discretionary rather than as a permanent revenue stream, so that the program's primary obligation remains administering the credential system. But for legislators who want a tangible benefit beyond the privacy architecture, this provision offers one.
+
 Your record on Fourth Amendment and constitutional privacy issues makes you uniquely suited to carry this bill. It is pro-family, pro-privacy, anti-surveillance, and conservative in the best sense: it limits power before that power is abused.
 
 I would be grateful for the opportunity to discuss the bill with you and your staff.
