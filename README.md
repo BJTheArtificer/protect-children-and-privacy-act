@@ -128,6 +128,13 @@ If you find a flaw — constitutional, technical, fiscal, drafting, anything —
 ├── fiscal/
 │   ├── fiscal-note.md                     (the formal fiscal note)
 │   └── fiscal-note-methodology.md         (how the numbers were built)
+├── research/                              (background legal authorities — public domain source materials)
+│   ├── README.md                          (explains the research files and how they support the bill)
+│   ├── 47 U.S. Code § 230 - Protection for private blocking and screening of offensive material.md
+│   ├── AR-ACT612.pdf                      (Arkansas Act 612 of 2023, the existing law this bill amends)
+│   ├── FSCvPaxton-23-1122_3e04.pdf        (Free Speech Coalition v. Paxton, 2025)
+│   ├── PorkvRoss-21-468_5if6.pdf          (National Pork Producers Council v. Ross, 2023)
+│   └── S230-overview-R46751.8.pdf         (CRS overview of Section 230)
 └── letters/
     ├── README.md                          (overview of sponsor outreach)
     ├── rep-long.md                        (Rep. Wayne Long)
