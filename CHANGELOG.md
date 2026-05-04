@@ -2,7 +2,55 @@
 
 All notable changes to this repository will be documented here. The bill is a working legislative draft and may continue to evolve through committee, floor consideration, and post-enactment refinement. This file tracks substantive changes to the legislation and to the supporting materials.
 
-## v2 — current draft
+## v3 — current draft
+
+### Bill text changes
+
+**Replaced § 4-88-1307(i)** — Pricing and retailer compensation now uses a percentage-based, cost-recovery-anchored structure rather than hardcoded dollar amounts. The new structure includes:
+
+- Cost-recovery purpose anchor preventing use as general revenue source
+- Maximum retail sale price set by rule with CPI-only routine adjustment, statutory authorization required for larger increases
+- Recommended initial price of approximately $6.00 as a non-binding legislative finding
+- Three-tier retailer compensation: physical card share, sustained receipt-printed activation share, startup receipt-printed activation share
+- Mandatory relative weighting (sustained receipt > physical, startup receipt > sustained receipt)
+- 36-month per-retailer startup incentive period commencing on each retailer's integration certification
+- Recommended initial percentages of 1/6, 1/4, and 1/3 of the retail sale price (non-binding)
+- Reasonable reserve requirement maintained by OST in coordination with DFA
+- Surplus distribution mechanism for Arkansas public schools (computer technology, K-6 STEM curriculum, classroom supplies), coordinated with Department of Education distribution formulas
+- Three-year persistent-surplus trigger requiring price review and reduction
+- Annual accountability reporting on fund balance, reserve target, surplus disposition, written findings, and recommended adjustments
+- Five-year program review and renewal mechanism for the startup receipt-activation share
+- No-surcharge construction clause and no-property-right construction clause for retailer shares
+
+**Corrected § 4-88-1303(24)(C)** — Changed the Miller LAPS test from "literary, artistic, political, AND scientific value" to "literary, artistic, political, OR scientific value" to conform to *Miller v. California*, 413 U.S. 15 (1973).
+
+**Added § 4-88-1304(g)(7) and (g)(8)** — Explicit non-extraterritoriality clauses clarifying that Arkansas does not require any covered implementation to apply Arkansas standards to users located in another state, and that the uniform-application safe harbor is permissive only. Addresses dormant Commerce Clause concerns under *National Pork Producers Council v. Ross*.
+
+**Added § 4-88-1314(g)** — Procedural protection of scope limitation. New subsection imposing single-subject requirement, separate committee hearing requirement (14 days notice), recorded vote requirement, public statement of effect requirement, and fiscal and privacy impact statement requirement on any future bill that would amend or extend the scope limitation. Includes a companion rules mechanism requesting that each chamber adopt parallel procedural rules. Procedural requirements apply by force of statute regardless of whether chambers adopt the requested rules.
+
+**Tightened § 4-88-1314(d)(1)(A)** — Closed a drafting loophole. The previous language ("returning a boolean age response indicating that the user is not an adult") could have been read to authorize a separate minor-specific signal. Revised language requires that any false response to a minor be returned "in the same manner as for any other user under § 4-88-1304(b), without distinguishing minors from unauthenticated adults in the response."
+
+**Expanded Section 9** from a federal-law savings clause to a federal-law savings AND severability clause, with explicit findings that the privacy-protection provisions serve independent and severable purposes from the underlying age-verification duty. The privacy architecture survives even if § 4-88-1304(a) or any other age-verification duty is held invalid, unconstitutional, preempted, enjoined, or otherwise unenforceable.
+
+**Updated title block** to disclose the new pricing structure, the school surplus distribution, and the procedural protection of scope limitation.
+
+### New repository content
+
+**Added `companion-resolutions/` directory** containing:
+- `chamber-rules-companion.md` — Parallel House and Senate procedural rules resolutions implementing the procedural framework requested in § 4-88-1314(g)(7), including point-of-order enforcement, two-thirds suspension threshold, and severance provision for non-compliant omnibus bills.
+- `README.md` — Documentation of the chamber rules architecture and how to file the resolutions.
+
+**Replaced `plain-english/plain-english-explanation.md`** with a more comprehensive v3-aware everyman summary covering all sections, including the new procedural protection framework, Commerce Clause additions, and severability expansion. Each section now includes both a "plain-English explanation" and a shorter "everyman summary."
+
+### Repository structure changes
+
+The `bill/` directory now contains three versions: v3 (current), v2 (prior), and v1 (original), all preserved for auditability and forkability.
+
+The `bill/README.md` has been updated to reflect the three-version history.
+
+The repository-level `README.md` file tree has been updated to reflect the new directory structure.
+
+## v2
 
 ### Bill text changes
 
@@ -47,14 +95,6 @@ This provision implements principle 11 of the foundational manifesto, which had 
 
 **Added authorship and credits section to README.md** describing the lead author's process, the AI assistance used, and the disclosure norm we recommend for adapters.
 
-### Supporting materials updates pending
-
-The following materials may need updating in subsequent commits to reflect the v2 changes:
-
-- `plain-english/plain-english-explanation.md` — should be extended to cover § 4-88-1311(k) and § 4-88-1314 in the same plain-language style as the rest of the document.
-- `fiscal/fiscal-note.md` and `fiscal/fiscal-note-methodology.md` — the multi-issuer requirement may slightly affect retailer onboarding cost projections (more independent retailers to onboard, but more total throughput to amortize across), and the scope limitation has no direct fiscal impact but should be acknowledged.
-- `letters/*.md` — the sponsor outreach letters may benefit from reference to the multi-issuer and adult-side-only provisions, particularly for representatives whose framing emphasizes anti-monopoly or anti-surveillance concerns.
-
 ## v1 — initial public draft
 
 The first publicly committed version of the bill. Included:
@@ -75,4 +115,4 @@ The first publicly committed version of the bill. Included:
 - Affirmative defense for security breaches with reasonable controls
 - Federal-law savings clause
 
-The v1 draft embodied ten of the twelve manifesto principles. v2 closes the remaining gap by adding the multi-issuer requirement (manifesto principle 10) and the adult-side-only limitation (manifesto principle 11).
+The v1 draft embodied ten of the twelve manifesto principles. v2 closed the remaining gap by adding the multi-issuer requirement (manifesto principle 10) and the adult-side-only limitation (manifesto principle 11). v3 added constitutional refinement, Commerce Clause hardening, procedural protection, and surplus-distribution architecture.

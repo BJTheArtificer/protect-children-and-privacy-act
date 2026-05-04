@@ -109,11 +109,15 @@ If you find a flaw — constitutional, technical, fiscal, drafting, anything —
 ├── LICENSE.md
 ├── CONTRIBUTING.md
 ├── bill/
-│   ├── README.md                          (explains the two versions and which to use)
-│   ├── full-bill-text-v2.md               (current draft — the version intended for filing)
-│   └── full-bill-text-v1.md               (prior draft — preserved for reference and forkability)
+│   ├── README.md                          (explains the three versions and which to use)
+│   ├── full-bill-text-v3.md               (current draft — the version intended for filing)
+│   ├── full-bill-text-v2.md               (prior draft — preserved for reference)
+│   └── full-bill-text-v1.md               (original draft — preserved for reference)
+├── companion-resolutions/
+│   ├── README.md                          (explains the chamber rules companion architecture)
+│   └── chamber-rules-companion.md         (parallel House and Senate rules resolutions)
 ├── plain-english/
-│   └── plain-english-explanation.md       (section-by-section, no legalese)
+│   └── plain-english-explanation.md       (section-by-section everyman summary, v3-aware)
 ├── fiscal/
 │   ├── fiscal-note.md                     (the formal fiscal note)
 │   └── fiscal-note-methodology.md         (how the numbers were built)

@@ -1,3 +1,21 @@
+[VERSION 3 — CHANGES FROM VERSION 2]
+
+This is version 3 of the Arkansas Protects Our Children and Our Privacy Online Act. The following changes were made from version 2:
+
+1. § 4-88-1303(24)(C) — Corrected the LAPS test in the "material harmful to minors" definition from "literary, artistic, political, AND scientific value" to "literary, artistic, political, OR scientific value" to conform to Miller v. California, 413 U.S. 15 (1973).
+
+2. § 4-88-1304(g)(7) and (g)(8) — Added explicit non-extraterritoriality clauses clarifying that Arkansas does not require any covered implementation to apply Arkansas standards to users located in another state, and that the uniform-application safe harbor is permissive only. This addresses dormant Commerce Clause concerns under National Pork Producers Council v. Ross.
+
+3. § 4-88-1307(i)(4)(G) through (J) — Added five-year program review and renewal mechanism for the startup receipt-printed activation share. The startup share sunsets on June 30 of the fifth full state fiscal year following the operative compliance date unless reauthorized by act of the General Assembly. Includes a pre-expiration report requirement and a construction clause preserving the 36-month per-retailer incentive period for retailers already onboarded.
+
+4. § 4-88-1314(g) — Added new procedural protection of scope limitation, including single-subject requirement, separate committee hearing requirement, recorded vote requirement, public statement of effect requirement, fiscal and privacy impact statement requirement, and a companion rules mechanism requesting that each chamber adopt parallel procedural rules and a point of order against non-compliant bills.
+
+5. Section 9 (DO NOT CODIFY) — Expanded from a federal-law savings clause to a federal-law savings AND severability clause, with specific findings that the privacy-protection provisions serve independent and severable purposes from the underlying age-verification duty, so that the privacy architecture survives even if § 4-88-1304(a) or any other age-verification duty is held invalid, unconstitutional, preempted, enjoined, or otherwise unenforceable.
+
+6. § 4-88-1314(d)(1)(A) — Tightened the language prohibiting OST from extending the state-certified interface to minor-side processing. The previous language ("returning a boolean age response indicating that the user is not an adult") could have been read to authorize a separate minor-specific signal. The revised language requires that any false response to a minor be returned "in the same manner as for any other user under § 4-88-1304(b), without distinguishing minors from unauthenticated adults in the response." Identified during full reread of v3.
+
+[END VERSION 3 CHANGELOG]
+
 State of Arkansas
 95th General Assembly
 Regular Session, 2025
@@ -135,7 +153,7 @@ and includes no other information.
 (i) The nipple of the female breast, pubic hair, anus, vulva, or genitals;
 (ii) Touching, caressing, or fondling of nipples, breasts, buttocks, the anus, or genitals; or
 (iii) Sexual intercourse, masturbation, sodomy, bestiality, oral copulation, flagellation, excretory functions, exhibitions of a sexual act, and any other sexual act; and
-(C) The material taken as a whole lacks serious literary, artistic, political, and scientific value for a reasonable seventeen-year-old.
+(C) The material taken as a whole lacks serious literary, artistic, political, or scientific value for a reasonable seventeen-year-old.
 (25) "Minor" means an individual under eighteen (18) years of age.
 (26) "News-gathering organization" means:
 (A) An employee of a newspaper, news publication, or news source, printed or published on an online or mobile platform, of current news and public interest, while operating as an employee of a news-gathering organization, who can provide documentation of employment with the newspaper, news publication, or news source; or
@@ -218,6 +236,13 @@ SECTION 4. Arkansas Code § 4-88-1304 is amended to read as follows:
 (D) Shall not be used to construct, augment, or maintain a profile, infer additional location information, or track users over time.
 
 (6) Presumption of validity. — A covered implementation that uses commercially reasonable methods consistent with subdivision (g)(3) or (g)(4) of this section is presumed to satisfy its applicability-determination obligations under this subchapter. Rules adopted under this subchapter may further specify privacy-preserving methods consistent with this subsection but may not authorize methods broader than those permitted under subdivision (g)(4) of this section or limit the safe harbor in subdivision (g)(3) of this section.
+
+(7) No extraterritorial requirement. — Nothing in this subchapter requires a covered implementation to apply the requirements of this subchapter to a user located outside this state, and the uniform application safe harbor under subdivision (g)(3) of this section is permissive only. A covered implementation may, in its sole discretion, elect to apply the requirements of this subchapter:
+(A) Only to users in this state, by means of an Arkansas applicability determination under subdivision (g)(4) of this section; or
+(B) Uniformly to all of its users, including users located outside this state, by means of the safe harbor under subdivision (g)(3) of this section.
+The State of Arkansas does not require, and this subchapter shall not be construed to require, any covered implementation to apply Arkansas standards to users located in another state.
+
+(8) No regulation of out-of-state commerce. — This subchapter regulates only the age-assurance output used to satisfy Arkansas law for a transaction, session, access request, or local user context associated with a user in this state. Any application of this subchapter to a user located outside this state is the result of an independent election by the covered implementation, the law of another jurisdiction, or a contractual obligation between private parties, and is not the result of regulation by the State of Arkansas.
 
 SECTION 5. Arkansas Code § 4-88-1305 is amended to read as follows:
 
@@ -372,6 +397,15 @@ SECTION 6. Arkansas Code Title 4, Chapter 88, Subchapter 13, is amended to add a
 (D) The startup incentive period shall apply separately to each retailer.
 (E) Each retailer compensation share established under subdivision (i)(3) of this section shall be reasonably calibrated to the work, investment, and operational burden the retailer bears for the corresponding category of issuance, consistent with the cost-recovery purpose of subdivision (i)(1) of this section.
 (F) Recommendation as of enactment. — As of enactment of this subchapter, the General Assembly recommends initial retailer compensation shares set by rule at approximately one-sixth (16⅔%) of the retail sale price for physical card issuance, one-quarter (25%) of the retail sale price for sustained receipt-printed activation, and one-third (33⅓%) of the retail sale price for startup receipt-printed activation. These recommendations are not binding on the Office of State Technology and are intended only to inform initial rulemaking.
+(G) Five-year program review and renewal. — The startup receipt-printed activation share authorized under subdivision (i)(3)(C) of this section shall expire on June 30 of the fifth full state fiscal year following the operative compliance date published under Section 7 of the act of which this section is a part, unless the General Assembly affirmatively reauthorizes the startup receipt-printed activation share by act of the General Assembly before that date.
+(H) Effect of expiration. — Upon expiration under subdivision (i)(4)(G) of this section, the sustained receipt-printed activation share under subdivision (i)(3)(B) of this section applies to all receipt-printed activation thereafter, and the startup share shall not apply to any retailer regardless of the date of certification of that retailer's receipt-printed activation integration.
+(I) Pre-expiration report. — Not later than eighteen (18) months before expiration of the startup receipt-printed activation share under subdivision (i)(4)(G) of this section, the Office of State Technology shall submit to the General Assembly a report addressing:
+(i) The number of retailers that have deployed receipt-printed activation integration;
+(ii) The proportion of credentials issued through receipt-printed activation as compared to physical card issuance;
+(iii) The fund balance and surplus distribution history during the startup incentive period;
+(iv) Whether continuation of the startup share is necessary to support continued retailer onboarding or whether the sustained share is sufficient; and
+(v) Recommendations for reauthorization, modification, or expiration.
+(J) Construction. — Nothing in subdivisions (i)(4)(G) through (I) of this section affects the duration of the thirty-six-month startup incentive period applicable to a particular retailer under subdivision (i)(4)(C) of this section, except that no retailer shall receive the startup share for any issuance occurring after the expiration date established under subdivision (i)(4)(G) of this section.
 
 (5) Reasonable reserve. — The Office of State Technology, in coordination with the Department of Finance and Administration, shall maintain in the Arkansas Child Protection and Online Privacy Fund a reasonable operating reserve sufficient to ensure continuity of the program, including without limitation reserve to cover anticipated annual operating cost, contingency for outage response and temporary alternative compliance methods under § 4-88-1305(f), replacement and fraud handling, and orderly wind-down obligations under Section 10 of the act of which this section is a part. The Office of State Technology shall determine the reasonable reserve amount by rule and shall periodically review the reserve target.
 
@@ -747,7 +781,7 @@ If the Office of State Technology does not act on a complete application within 
 
 (d) Affirmative legislative authorization required for minor-side extension.
 (1) Notwithstanding any other provision of law, the Office of State Technology shall not adopt rules, certify implementations, approve issuers, or otherwise administer the program established under this subchapter in a manner that:
-(A) Extends the state-certified interface to handle, transmit, store, or process information about a user known or believed to be a minor for any purpose other than returning a boolean age response indicating that the user is not an adult;
+(A) Extends the state-certified interface to handle, transmit, store, or process information about a user known or believed to be a minor for any purpose other than returning a false boolean age response in the same manner as for any other user under § 4-88-1304(b), without distinguishing minors from unauthenticated adults in the response;
 (B) Requires, authorizes, or facilitates the construction of a minor-side identification system, profiling system, restriction system, or behavioral monitoring system; or
 (C) Permits a successor local implementation to be certified under this subchapter if that implementation includes minor-side identification, profiling, restriction, or behavioral monitoring functionality.
 (2) Any extension of state-certified age-assurance infrastructure to functionality described in subdivision (d)(1) of this section requires affirmative authorization by act of the General Assembly.
@@ -758,6 +792,24 @@ If the Office of State Technology does not act on a complete application within 
 (3) This section does not authorize, require, or limit any minor-directed functionality offered by an operating system, device, application store, or other service that operates independently of the state-certified interface and the credential system established under this subchapter.
 
 (f) Reporting. — In each annual report required under Section 8(c) of the act of which this section is a part, and in each pre-sunset report required under Section 10(b) of that act, the Office of State Technology shall affirmatively certify that the program established under this subchapter has been operated in compliance with this section, or shall identify any departure from this section and the basis on which the departure was made.
+
+(g) Procedural protection of scope limitation.
+(1) Findings. — The General Assembly finds that:
+(A) The scope limitation established by this section is essential to the privacy, child-welfare, and family-autonomy purposes of this subchapter;
+(B) Expansion of the program established under this subchapter to minor-side identification, profiling, restriction, or behavioral control would constitute a fundamental change in the program that warrants full deliberative consideration by the General Assembly, separate from other legislative business; and
+(C) Procedural protections that raise the deliberative cost of modifying the scope limitation are appropriate to ensure that any such modification reflects considered judgment of the General Assembly rather than incidental legislative action.
+(2) Single-subject requirement. — A bill that would amend, repeal, weaken, or otherwise modify the scope limitation established by this section, or that would extend the program established under this subchapter to minor-side identification, profiling, restriction, or behavioral control, shall be filed as a standalone bill addressing that subject and shall not be included as a provision within an omnibus bill, an appropriations bill, a budget reconciliation measure, a revenue bill, or any other bill addressing additional subjects.
+(3) Committee hearing required. — A bill described in subdivision (g)(2) of this section shall receive a separate committee hearing in each chamber, with public notice of not less than fourteen (14) days, before the bill may be reported out of committee.
+(4) Recorded vote required. — A vote on final passage of a bill described in subdivision (g)(2) of this section shall be a recorded roll-call vote in each chamber.
+(5) Public statement of effect required. — A bill described in subdivision (g)(2) of this section shall include a plainly worded statement, prominently displayed in the bill, identifying the bill as one that modifies or extends the scope limitation established by this section and summarizing the effect of the modification or extension.
+(6) Fiscal and privacy impact statement. — A bill described in subdivision (g)(2) of this section shall be accompanied by a written impact statement, prepared by the Office of State Technology in consultation with the Attorney General, addressing:
+(A) The anticipated effect of the bill on the privacy of lawful adult users of covered implementations;
+(B) The anticipated effect of the bill on minors and on family-autonomy interests;
+(C) The anticipated fiscal effect on the Arkansas Child Protection and Online Privacy Fund and on program administration; and
+(D) Any anticipated conflict with applicable federal law, including without limitation 47 U.S.C. § 230 and the First Amendment to the United States Constitution.
+(7) Companion rules mechanism. — The General Assembly requests that the House of Representatives and the Senate each adopt, as part of the rules of the chamber, procedural rules implementing the requirements of subdivisions (g)(2) through (g)(6) of this section, including without limitation a point of order that may be raised on the floor of the chamber against a bill that does not comply with those subdivisions. The procedural requirements of this subsection apply regardless of whether the chambers adopt the requested rules.
+(8) Construction. — This subsection establishes procedural expectations for the orderly consideration of changes to the scope limitation established by this section. Nothing in this subsection purports to limit the constitutional authority of a future General Assembly to enact legislation by the procedures established by the Arkansas Constitution. The procedural requirements of this subsection are intended to ensure that any modification of the scope limitation receives full deliberative consideration consistent with the importance of the subject matter.
+(9) Severability. — If any provision of this subsection is held invalid or unenforceable as a limitation on future legislative action, the remaining provisions of this section, including the substantive scope limitation in subsections (a) through (f), shall remain in full force and effect.
 
 SECTION 7. DO NOT CODIFY. Phased implementation.
 
@@ -792,13 +844,21 @@ SECTION 8. DO NOT CODIFY. Initial implementation funding.
 (3) Any anticipated need for supplemental appropriations; and
 (4) Any rule changes recommended to maintain self-funding status consistent with the fee caps in §§ 4-88-1307(i) and 4-88-1310(d).
 
-SECTION 9. DO NOT CODIFY. Federal law savings clause.
+SECTION 9. DO NOT CODIFY. Federal law savings and severability.
 
 (a) Nothing in this act is intended to impose liability or compliance obligations inconsistent with 47 U.S.C. § 230 or other applicable federal law.
 
 (b) If a provision of this act is preempted in whole or in part by federal law as applied to a particular person or circumstance, the provision shall be construed to apply only to the extent not preempted, and the remaining provisions of this act and their application to other persons or circumstances shall not be affected.
 
 (c) This act shall be construed to avoid conflict with applicable federal law to the maximum extent consistent with its purposes.
+
+(d) Severability — general. — If any provision of this act, or the application of any provision to any person or circumstance, is held invalid, unconstitutional, preempted, or otherwise unenforceable, the invalidity shall not affect other provisions or applications of this act that can be given effect without the invalid provision or application, and to this end the provisions of this act are severable.
+
+(e) Severability — privacy architecture preserved. — The General Assembly specifically finds that the privacy-protection provisions of this act, including without limitation §§ 4-88-1304(b), 4-88-1304(g), 4-88-1306 through 4-88-1314, and the corresponding liability, scope-limitation, anti-gatekeeper, anti-extension, and fund-administration provisions, serve independent and severable purposes from the underlying age-verification duty in § 4-88-1304(a). If § 4-88-1304(a) or any other provision establishing or modifying an age-verification duty is held invalid, unconstitutional, preempted, enjoined, or otherwise unenforceable, in whole or in part, the privacy-protection, scope-limitation, anti-gatekeeper, anti-extension, fund-administration, and remedial provisions identified in this subsection shall remain in full force and effect and shall continue to apply to any covered implementation that elects, or is otherwise required by federal law, the law of another jurisdiction, or independent business judgment, to perform age assurance with respect to users in this state.
+
+(f) Severability of remedies. — If a particular remedy authorized by this act, including without limitation the limited intermediary remedy under § 4-88-1313(f)(2), is held invalid, unconstitutional, preempted, or otherwise unenforceable, the invalidity shall not affect the validity of any other remedy authorized by this act.
+
+(g) The General Assembly would have enacted each provision of this act independently of every other provision and would have enacted the privacy-protection, scope-limitation, anti-gatekeeper, anti-extension, fund-administration, and remedial provisions of this act regardless of whether any age-verification duty under this subchapter were held invalid, unconstitutional, preempted, or otherwise unenforceable.
 
 SECTION 10. DO NOT CODIFY. Sunset and reauthorization.
 
