@@ -189,7 +189,7 @@ As described in the Note from the Author, the lead author's process was delibera
 
 ### Core concepts originated by the lead author
 
-The architectural ideas that make this bill different from the California, Utah, and Texas family of age-verification laws were developed by the lead author and are documented in the manifesto. Specifically:
+The ideas that make this bill different from the California, Utah, and Texas family of age-verification laws were developed by the lead author and are documented in the manifesto. Specifically:
 
 - **The boolean `is_18_plus` output as the only lawful external age signal.** The decision to require a single binary answer — yes or no — instead of age bands, exact ages, dates of birth, or persistent identity tokens is the central privacy commitment of the bill.
 
@@ -198,6 +198,8 @@ The architectural ideas that make this bill different from the California, Utah,
 - **One-time credentials that expire upon use or after a period of inactivity.** The decision that credentials must be short-lived, single-use, and self-destructing rather than reusable adult tokens is what prevents the credential from becoming a tracking instrument.
 
 - **The professional and hobbyist permit carve-out with long-lived credentials.** The recognition that IT workers, students, security researchers, system administrators, software developers, repair technicians, virtualization engineers, and homelab hobbyists need a separate track — and that forcing them to repeatedly buy one-time credentials is both impractical and unfair — is what makes the bill workable for the technical community rather than hostile to it.
+
+- **Surplus revenue allocated to a contingency reserve and to Arkansas public schools rather than to the general fund.** The decision to direct any program surplus to a reasonable operating reserve first, and then to school computer technology, K-6 STEM curriculum, and basic classroom supplies, rather than letting the program become a general revenue source, is what keeps the bill honest about its purpose. Money raised to protect children should be reinvested in children's futures, not absorbed into the budget for unrelated spending.
 
 These are the ideas that distinguish this bill from every other age-verification law on the table. They are the lead author's. If you fork this work, those concepts are the foundation you are building on, and credit belongs to the lead author.
 
