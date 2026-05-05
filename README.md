@@ -4,37 +4,13 @@
 
 ---
 
-## Note from the Author
-
-Hey y'all! This is a project I've been mulling over since I first saw California's A.B. 1043. That law is 100% a wolf in sheep's clothing. If you're reading this, then you probably know it is too.
-
-If California's A.B. 1043 becomes the template for how we protect children from adult content across the country, we will essentially be handing over our every digital move to Big Tech and the government. That means journalists investigating corruption could be meticulously tracked by the very people they are investigating. It could even allow tech giants to track law enforcement officers who might be looking into their misdeeds.
-
-And for the everyday libertarian, this means firearm enthusiasts could end up in the database they have worried about for decades. Not because they purchased a weapon, but because the content they consume places them in a group of people "likely" to own a firearm.
-
-This kind of power is extremely dangerous, and it should scare the hell out of everyone in the country. Best case scenario, they use this information to target ads at us. Worst case, we get segregated into groups based on the content we consume, the items we purchase, where we travel, and more, then categorized as potential friends or potential enemies of the regime. The fact that our representatives are even considering this is deeply disturbing to me.
-
-This kind of tracking will make us second-guess, or even fear, anything we say or do online, and maybe even in our own homes. It makes us much less free as Americans. But I guess if you say it's to "save the children," then it's worth slipping further and further into authoritarianism.
-
-So that's all to say: I felt compelled to come up with a different template. And I think I came up with a concept that doesn't try to stand in front of the boulder rolling down the hill that is OS-level age gating. What my concept does instead is stand to the side and push it toward a more tolerable target.
-
-I am not a lawyer. But I have always been a legal enthusiast. I've spent the past month or so forming these ideas, and when I was ready to put it all together, I kind of just vibe-coded this bill. I don't have the legal jargon to properly write it myself, but I was meticulous with my "pseudocode," if you will.
-
-I've gone over what was written again and again for the past week or two. I've pitted different AI models, Claude Opus 4.7, ChatGPT 5.4 Thinking, Qwen 3.5, against each other. I prompted them to be critical, and sometimes even adversarial, toward what I was trying to achieve in order to strengthen the final product. And I'm pretty content with what resulted.
-
-At this point, I think I've done all I can with this project, and I'm asking any of you with law degrees, computer science degrees, privacy expertise, security experience, or just sharp eyes to chime in. Please throw your thoughts and expertise into this work. Fork it, make it yours, fit it to your state, rip it to shreds in the issues section. This template can show California and the rest of the country that we can walk and chew gum at the same time.
-
-If you do fork or clone this repo, please credit me, because the core concepts and the heart of this plan are mine. The work AI did was taking my manifesto/pseudocode and putting it into a pretty wrapper while I vigilantly micromanaged it and called balls and strikes as it did so.
-
----
-
 ## What this repository is
 
 This is the working repository for a piece of Arkansas legislation that tries to do something most age-verification laws fail to do: protect kids online without building a surveillance system for everyone else.
 
 The bill is being published openly because the federal government and many states are about to make decisions that will shape how every computer, phone, and operating system in the country handles identity and age for the next generation. The model in this bill is intended to be better than the alternatives currently on the table, and the author wants it to be copied, improved, forked, and used.
 
-For the substantive context — California A.B. 1043, the federal Parents Decide Act, the App Store Accountability Act, and the state-level age verification laws in Utah, Texas, Louisiana, and elsewhere — see the Note from the Author above and the foundational `manifesto.md` document.
+For the substantive context — California A.B. 1043, the federal Parents Decide Act, the App Store Accountability Act, and the state-level age verification laws in Utah, Texas, Louisiana, and elsewhere — see the Note from the Author below and the foundational `manifesto.md` document.
 
 ---
 
@@ -74,6 +50,30 @@ The bill prohibits selling, sharing, profiling, or making secondary use of any d
 **Small businesses, developers, and security researchers** who would otherwise face a patchwork of state-by-state age verification requirements with conflicting data demands.
 
 **Taxpayers**, because the program is designed to be self-funding through credential fees rather than ongoing general appropriations.
+
+---
+
+## Note from the Author
+
+Hey y'all! This is a project I've been mulling over since I first saw California's A.B. 1043. That law is, in my opinion, a wolf in sheep's clothing. If you're reading this, then you probably know it is too.
+
+If California's A.B. 1043 becomes the template for how we protect children from adult content across the country, we will essentially be handing over our every digital move to Big Tech and the government. That means journalists investigating corruption could be meticulously tracked by the very people they are investigating. It could even allow tech giants to track law enforcement officers who might be looking into their misdeeds. It could let abusers find people who escaped them, and identify the people researching ways to leave.
+
+And for the everyday libertarian, this means firearm enthusiasts could end up in the database they have worried about for decades. Not because they purchased a weapon, but because the content they consume places them in a group of people "likely" to own a firearm. That is exactly the database the Second Amendment community has been right to worry about, and it is being built in plain sight, just under a different label.
+
+This kind of power is dangerous, and it should scare the hell out of everyone in the country. Best case scenario, they use this information to target ads at us. Worst case, we get sorted into groups based on the content we consume, the items we purchase, where we travel, and more, then quietly classified as people the powerful want to watch. The fact that our representatives are even considering this is deeply disturbing to me.
+
+This kind of tracking will make us second-guess, or even fear, anything we say or do online, and maybe even in our own homes. It makes us much less free as Americans. But I guess if you say it's to "save the children," then it's worth slipping further and further into authoritarianism.
+
+So that's all to say: I felt compelled to come up with a different template. And I think I came up with a concept that doesn't try to stand in front of the boulder rolling down the hill that is OS-level age gating. What my concept does instead is stand to the side and push it toward a more tolerable target.
+
+I am not a lawyer. But I have always been a legal enthusiast. I've spent the past month or so forming these ideas, and when I was ready to put it all together, I kind of just vibe-coded this bill. I don't have the legal jargon to properly write it myself, but I was meticulous with my "pseudocode," if you will.
+
+I've gone over what was written again and again for the past week or two. I've pitted different AI models, Claude Opus 4.7, ChatGPT 5.4 Thinking, Qwen 3.5, against each other. I prompted them to be critical, and sometimes even adversarial, toward what I was trying to achieve in order to strengthen the final product. And I'm pretty content with what resulted.
+
+At this point, I think I've done all I can with this project, and I'm asking any of you with law degrees, computer science degrees, privacy expertise, security experience, or just sharp eyes to chime in. Please throw your thoughts and expertise into this work. Fork it, make it yours, fit it to your state, rip it to shreds in the issues section. This template can show California and the rest of the country that we can walk and chew gum at the same time.
+
+The core concepts and the heart of this plan are mine. AI helped me put my manifesto and my pseudocode into a pretty wrapper, while I micromanaged it and called balls and strikes as it did so. If you fork or clone this repo, please attribute the core architecture accordingly.
 
 ---
 
@@ -172,7 +172,7 @@ This draft is expected to change as it moves through committee, takes amendments
 
 ## Authorship and credits
 
-The Note from the Author at the top of this README provides the personal account of how this work came together. This section provides the structured attribution detail that legal reviewers, journalists, and adapters in other states will want.
+The Note from the Author earlier in this README provides the personal account of how this work came together. This section provides the structured attribution detail that legal reviewers, journalists, and adapters in other states will want.
 
 ### Lead author
 
