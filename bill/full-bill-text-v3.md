@@ -1,21 +1,3 @@
-[VERSION 3 — CHANGES FROM VERSION 2]
-
-This is version 3 of the Arkansas Protects Our Children and Our Privacy Online Act. The following changes were made from version 2:
-
-1. § 4-88-1303(24)(C) — Corrected the LAPS test in the "material harmful to minors" definition from "literary, artistic, political, AND scientific value" to "literary, artistic, political, OR scientific value" to conform to Miller v. California, 413 U.S. 15 (1973).
-
-2. § 4-88-1304(g)(7) and (g)(8) — Added explicit non-extraterritoriality clauses clarifying that Arkansas does not require any covered implementation to apply Arkansas standards to users located in another state, and that the uniform-application safe harbor is permissive only. This addresses dormant Commerce Clause concerns under National Pork Producers Council v. Ross.
-
-3. § 4-88-1307(i)(4)(G) through (J) — Added five-year program review and renewal mechanism for the startup receipt-printed activation share. The startup share sunsets on June 30 of the fifth full state fiscal year following the operative compliance date unless reauthorized by act of the General Assembly. Includes a pre-expiration report requirement and a construction clause preserving the 36-month per-retailer incentive period for retailers already onboarded.
-
-4. § 4-88-1314(g) — Added new procedural protection of scope limitation, including single-subject requirement, separate committee hearing requirement, recorded vote requirement, public statement of effect requirement, fiscal and privacy impact statement requirement, and a companion rules mechanism requesting that each chamber adopt parallel procedural rules and a point of order against non-compliant bills.
-
-5. Section 9 (DO NOT CODIFY) — Expanded from a federal-law savings clause to a federal-law savings AND severability clause, with specific findings that the privacy-protection provisions serve independent and severable purposes from the underlying age-verification duty, so that the privacy architecture survives even if § 4-88-1304(a) or any other age-verification duty is held invalid, unconstitutional, preempted, enjoined, or otherwise unenforceable.
-
-6. § 4-88-1314(d)(1)(A) — Tightened the language prohibiting OST from extending the state-certified interface to minor-side processing. The previous language ("returning a boolean age response indicating that the user is not an adult") could have been read to authorize a separate minor-specific signal. The revised language requires that any false response to a minor be returned "in the same manner as for any other user under § 4-88-1304(b), without distinguishing minors from unauthenticated adults in the response." Identified during full reread of v3.
-
-[END VERSION 3 CHANGELOG]
-
 State of Arkansas
 95th General Assembly
 Regular Session, 2025

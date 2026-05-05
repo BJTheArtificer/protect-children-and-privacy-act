@@ -10,7 +10,7 @@ All documents here were obtained from official government sources (supremecourt.
 
 The full statutory text of Section 230 of the Communications Decency Act, the federal statute that limits state authority to impose liability on internet service providers, search engines, and similar intermediaries for third-party content. The bill is drafted to operate within the limits Section 230 imposes, and several provisions — particularly the federal-law savings and severability clause in Section 9, the limited intermediary remedy in § 4-88-1313(f)(2), and the construction rules throughout — exist to ensure compatibility with this federal preemption framework.
 
-Source: 47 U.S.C. § 230, as published on the U.S. House Office of the Law Revision Counsel website (uscode.house.gov) and Congress.gov.
+Source: [47 U.S.C. § 230](https://www.law.cornell.edu/uscode/text/47/230)
 
 ### `S230-overview-R46751.8.pdf`
 
@@ -18,7 +18,7 @@ Congressional Research Service overview of Section 230, providing background on 
 
 This report informs the bill's approach to intermediary remedies and the careful drafting of § 4-88-1313 to avoid Section 230 preemption while still providing meaningful enforcement against operators clearly violating Arkansas law.
 
-Source: crsreports.congress.gov.
+Source: [crsreports.congress.gov](https://www.congress.gov/crs-product/R46751#_Toc155275791).
 
 ### `FSCvPaxton-23-1122_3e04.pdf`
 
@@ -26,19 +26,19 @@ The 2025 Supreme Court opinion in *Free Speech Coalition v. Paxton*, the case up
 
 The bill also draws several procedural protections — particularly the clear-and-convincing-evidence standard in § 4-88-1313(f)(2)(B) and the automatic stay pending appeal in § 4-88-1313(f)(2)(F) — from First Amendment prior-restraint doctrine that *Paxton* operates within rather than overrules.
 
-Source: supremecourt.gov.
+Source: [supremecourt.gov](https://www.supremecourt.gov/opinions/24pdf/23-1122_3e04.pdf).
 
 ### `PorkvRoss-21-468_5if6.pdf`
 
 The 2023 Supreme Court opinion in *National Pork Producers Council v. Ross*, the dormant Commerce Clause case that gave states substantially more room to regulate goods and services that cross state lines. This case is what makes the bill's uniform-application safe harbor (§ 4-88-1304(g)(3)) and the explicit non-extraterritoriality clauses (§ 4-88-1304(g)(7) and (g)(8)) constitutionally durable. Without *Pork Producers*, the bill would face a much harder dormant Commerce Clause challenge.
 
-Source: supremecourt.gov.
+Source: [supremecourt.gov](https://www.supremecourt.gov/opinions/22pdf/21-468_5if6.pdf).
 
 ### `AR-ACT612.pdf`
 
 Arkansas Act 612 of 2023, the Protection of Minors from Distribution of Harmful Material Act — the existing Arkansas law that this bill amends. Reading this is essential for understanding what the bill changes versus what it preserves. The bill does not replace Arkansas's existing child-protection framework; it adds a privacy-preserving compliance path for covered implementations alongside it.
 
-Source: Arkansas legislative resources (arkleg.state.ar.us).
+Source: [Arkansas legislative resources](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2FACT612.pdf).
 
 ## Why these specific documents
 
